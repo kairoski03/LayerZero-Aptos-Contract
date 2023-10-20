@@ -3,7 +3,7 @@ name = "proxy_oft"
 version = "0.0.1"
 
 [addresses]
-proxy_oft = "_"
+proxy_oft = "0xc929703bae20615775e77e8865e987dc8b9c222a2806e969a63db141743b6efc"
 
 [dependencies]
-layerzero_apps = { local = "../../../layerzero-apps" }
+layerzero_apps = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir = "layerzero-apps", rev = "main" }
