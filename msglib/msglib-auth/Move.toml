@@ -3,7 +3,7 @@ name = "msglib_auth"
 version = "0.0.1"
 
 [addresses]
-msglib_auth = "_"
+msglib_auth = "0xcf1926d4924eb6b664af1107ed7bf5a2d906d1edde09bc6726f89a2c7176bc0f"
 
 [dependencies]
-layerzero_common = { local = "../../layerzero-common" }
+layerzero_common = {  git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="layerzero-common", rev="main"}

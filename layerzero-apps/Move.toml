@@ -3,7 +3,7 @@ name = "layerzero_apps"
 version = "0.0.1"
 
 [addresses]
-layerzero_apps = "_"
+layerzero_apps = "0xcf1926d4924eb6b664af1107ed7bf5a2d906d1edde09bc6726f89a2c7176bc0f"
 
 [dependencies]
-layerzero = { local = "../layerzero" }
+layerzero = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir = "layerzero", rev = "main" }

@@ -3,15 +3,15 @@ name = "layerzero"
 version = "0.0.1"
 
 [addresses]
-layerzero = "_"
+layerzero = "0xcf1926d4924eb6b664af1107ed7bf5a2d906d1edde09bc6726f89a2c7176bc0f"
 test = "0x8"
 lzapp = "0x9"
 
 [dependencies]
-layerzero_common = { local = "../layerzero-common" }
-zro = { local = "../zro" }
-msglib_auth = { local = "../msglib/msglib-auth" }
-msglib_v2 = { local = "../msglib/msglib-v2" }
-msglib_v1_1 = { local = "../msglib/msglib-v1/msglib-v1-1" }
-executor_auth = { local = "../executor/executor-auth" }
-executor_v2 = { local = "../executor/executor-v2" }
+layerzero_common = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="layerzero-common", rev="main" }
+zro = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="zro", rev="main" }
+msglib_auth = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="msglib/msglib-auth", rev="main" }
+msglib_v2 = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="msglib/msglib-v2", rev="main" }
+msglib_v1_1 = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="msglib/msglib-v1/msglib-v1-1", rev="main" }
+executor_auth = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="executor/executor-auth", rev="main" }
+executor_v2 = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="executor/executor-v2", rev="main" }

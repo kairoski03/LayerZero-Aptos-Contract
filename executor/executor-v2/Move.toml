@@ -3,8 +3,8 @@ name = "executor_v2"
 version = "0.0.1"
 
 [addresses]
-executor_v2 = "_"
+executor_v2 = "0xcf1926d4924eb6b664af1107ed7bf5a2d906d1edde09bc6726f89a2c7176bc0f"
 
 [dependencies]
-layerzero_common = { local = "../../layerzero-common" }
-executor_auth = { local = "../executor-auth" }
+layerzero_common = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="layerzero-common", rev="main" }
+executor_auth = { git = "https://github.com/kairoski03/LayerZero-Aptos-Contract.git", subdir="executor/executor-auth", rev="main" }
