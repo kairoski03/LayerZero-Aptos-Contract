@@ -3,7 +3,7 @@ name = "layerzero_common"
 version = "0.0.1"
 
 [addresses]
-layerzero_common = "_"
+layerzero_common = "0xcf1926d4924eb6b664af1107ed7bf5a2d906d1edde09bc6726f89a2c7176bc0f"
 
 [dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-core.git"
