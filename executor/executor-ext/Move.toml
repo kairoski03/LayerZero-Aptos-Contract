@@ -6,4 +6,4 @@ version = "0.0.1"
 executor_ext = "c929703bae20615775e77e8865e987dc8b9c222a2806e969a63db141743b6efc"
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "devnet"}
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet"}
